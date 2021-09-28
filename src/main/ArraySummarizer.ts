@@ -8,7 +8,12 @@ export class ArraySummarizer {
      * @return Sum of the array items.
      */
     sumArrayItems(array: number[]): number {
-        throw new Error("Not implemented!");
-    }
+        var sum = 0;
+        array.forEach(function (value) {
+            sum += value;
+        });
+        return sum;
+    };
+
 
 }
