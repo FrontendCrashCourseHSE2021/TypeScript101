@@ -8,7 +8,7 @@ export class ArraySummarizer {
      * @return Sum of the array items.
      */
     sumArrayItems(array: number[]): number {
-        var res = 0;
+        let res = 0;
         for (let i = 0; i < array.length; i++){
             res = res + array[i];
         }
