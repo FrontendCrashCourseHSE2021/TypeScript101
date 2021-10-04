@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --testPathPattern=src/tests",
-    "main": "ts-node src/main/main.ts"
+    "maintest": "ts-node src/main/maintest.ts",
+    "Test.spec": "ts-node src/main/Test.spec.ts"
   },
   "keywords": [],
   "author": "",
