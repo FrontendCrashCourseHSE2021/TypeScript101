@@ -107,8 +107,8 @@ console.log(myObject.name);
 
 function twoNumberFunction(arg1: string, arg2: string) {
     return {
-      len1: arg1.length,
-      len2: arg2.length
+        len1: arg1.length,
+        len2: arg2.length
     };
 }
 
