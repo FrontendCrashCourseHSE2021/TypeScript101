@@ -9,7 +9,8 @@ export class Calculator {
      * @return Sum of two numbers.
      */
     sum(arg1: number, arg2: number): number {
-        throw new Error("Not implemented!");
+        // throw new Error("Not implemented!");
+        return arg1 + arg2 ;
     }
 
     /**
@@ -21,7 +22,8 @@ export class Calculator {
      * @return Subtraction of one number from another.
      */
     subtract(arg1: number, arg2: number): number {
-        throw new Error("Not implemented!");
+        // throw new Error("Not implemented!");
+        return arg1 - arg2 ;
     }
 
     /**
@@ -33,7 +35,8 @@ export class Calculator {
      * @return Multiplication of two numbers.
      */
     multiply(arg1: number, arg2: number): number {
-        throw new Error("Not implemented!");
+        // throw new Error("Not implemented!");
+        return arg1 * arg2 ;
     }
 
     /**
@@ -45,7 +48,8 @@ export class Calculator {
      * @return Division of two numbers.
      */
     divide(arg1: number, arg2: number): number {
-        throw new Error("Not implemented!");
+        // throw new Error("Not implemented!");
+        return arg1 / arg2 ;
     }
 
     /**
@@ -57,7 +61,8 @@ export class Calculator {
      * @return Power of numbers.
      */
     power(arg1: number, arg2: number): number {
-        throw new Error("Not implemented!");
+        // throw new Error("Not implemented!");
+        return arg1 ** arg2 ;
     }
 
 }
